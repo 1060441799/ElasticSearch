@@ -220,7 +220,7 @@ GET /_analyze
 - Request Body Search 
   - 使用Elasticsearch提供的，基于JSON格式的更加完备的Query Domain Specific Language（DSL）
 
-<img src="C:\Users\JackZhan\AppData\Roaming\Typora\typora-user-images\image-20191214164447487.png" alt="image-20191214164447487" style="zoom: 50%;" />
+<img src="./SearchAPI/范围.png" alt="image-20191214164447487" style="zoom: 50%;" />
 
 ### URI Search
 
@@ -228,12 +228,12 @@ GET /_analyze
 
 - KV 键值对
 
-   ![image-20191214164840831](C:\Users\JackZhan\AppData\Roaming\Typora\typora-user-images\image-20191214164840831.png)
+   ![image-20191214164840831](./SearchAPI/KV键值对.png)
 
 ### Request Body Search
 
-![image-20191214165037720](C:\Users\JackZhan\AppData\Roaming\Typora\typora-user-images\image-20191214165037720.png)
+![image-20191214165037720](./SearchAPI/image-20191214165037720.png)
 
 ### Response
 
-![image-20191214165149363](C:\Users\JackZhan\AppData\Roaming\Typora\typora-user-images\image-20191214165149363.png)
+![image-20191214165149363](./SearchAPI/image-20191214165149363.png)
