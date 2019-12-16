@@ -225,15 +225,27 @@ GET /_analyze
 ### URI Search
 
 - 使用 "q" ，指定查询字符串
+- df 默认字段，不指定时，会对所有字段进行查询
+- sort 排序 / from 和 size 用于分页
+- profile 可以查看查询是如何执行的
 
-- KV 键值对
 
-   ![image-20191214164840831](./SearchAPI/KV键值对.png)
+
+```
+如果需要搜索中文需要转成 UrlEncode：查询 红色 
+GET users/_search?q=%E7%BA%A2%E8%89%B2
+```
+
+
+
+![image-20191214164840831](./SearchAPI/KV键值对.png)
 
 ### Request Body Search
 
 ![image-20191214165037720](./SearchAPI/image-20191214165037720.png)
 
 ### Response
+
+返回的信息
 
 ![image-20191214165149363](./SearchAPI/image-20191214165149363.png)
